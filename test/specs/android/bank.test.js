@@ -3,15 +3,16 @@ const MainScreen = require("../../screen/android/mainScreen");
 const SideMenu = require("../../screen/android/sideMenu");
 
 describe('Cathay Bank Tests', () => {
-    it('Capture screenshot on the home page', async () => {
+    before(async () => {
         driver.url("https://www.cathaybk.com.tw/cathaybk/")
+    })
 
-        await MainScreen.loginBtn.waitForExist()
+    it('Capture screenshot on the home page', async () => {
+        await MainScreen.isLoad()
         await driver.saveScreenshot('./mainPage.png');
     });
 
     it('Get options of credit section', async () => {
-        await MainScreen.menu.waitForExist()
         await MainScreen.menu.click()
 
         await SideMenu.productIntro.waitForExist()

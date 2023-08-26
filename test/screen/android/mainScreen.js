@@ -6,6 +6,11 @@ class MainScreen {
     get menu() {
         return $('.-close')
     }
+
+    async isLoad() {
+        await this.loginBtn.waitForExist()
+        await this.menu.waitForExist()
+    }
 }
 
 module.exports = new MainScreen()
