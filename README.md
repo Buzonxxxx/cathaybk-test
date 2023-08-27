@@ -37,3 +37,8 @@ Test Cathay bank website using appium with JS
     - `appium   `
 - Execute test
     - `npx wdio`
+ 
+### Demo
+https://github.com/Buzonxxxx/cathaybk-test/assets/12542424/55541e03-d010-43cf-890a-d5ec40e82329
+
+
