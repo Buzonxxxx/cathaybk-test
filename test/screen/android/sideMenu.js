@@ -16,4 +16,4 @@ class SideMenu {
     }
 }
 
-module.exports = new SideMenu()
+export default new SideMenu

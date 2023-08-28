@@ -20,4 +20,4 @@ class CardIntroScreen {
     }
 }
 
-module.exports = new CardIntroScreen()
+export default new CardIntroScreen

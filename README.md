@@ -1,5 +1,5 @@
 # cathaybk-test
-Test Cathay bank website using appium with JS
+Test Cathay bank mobile website using Appium with WebdriverIO
 
 ### Precondition
 - Install Node.js v16 
@@ -34,11 +34,11 @@ Test Cathay bank website using appium with JS
     - `npm i`
 - Launch Android Emulator
 - Launch Appium Server
-    - `appium   `
+    - `appium server --allow-insecure chromedriver_autodownload`
 - Execute test
-    - `npx wdio`
- 
+    - Android
+        - `npx wdio config/android.conf.js`
+    - iOS (Not yet implemented)
+        - `npx wdio config/ios.conf.js`
 ### Demo
 https://github.com/Buzonxxxx/cathaybk-test/assets/12542424/55541e03-d010-43cf-890a-d5ec40e82329
-
-

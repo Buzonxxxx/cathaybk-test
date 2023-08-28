@@ -13,4 +13,4 @@ class MainScreen {
     }
 }
 
-module.exports = new MainScreen()
+export default new MainScreen

@@ -1,6 +1,6 @@
-const CardIntroScreen = require("../../screen/android/cardIntroScreen");
-const MainScreen = require("../../screen/android/mainScreen");
-const SideMenu = require("../../screen/android/sideMenu");
+import MainScreen from "../../screen/android/mainScreen"
+import SideMenu from "../../screen/android/sideMenu"
+import CardIntroScreen from "../../screen/android/cardIntroScreen"
 
 describe('Cathay Bank Tests', () => {
     before(async () => {

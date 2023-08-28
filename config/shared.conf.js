@@ -7,7 +7,6 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    port: 4723,
     //
     // ==================
     // Specify Test Files
@@ -24,10 +23,7 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
-    specs: [
-        // ToDo: define location for spec files here
-        './test/specs/**/*.js'
-    ],
+    
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -54,13 +50,6 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
-        'appium:platformName': 'Android',
-        'appium:automationName': 'UiAutomator2',
-        'appium:platformVersion': '14.0',
-        'appium:deviceName': 'Pixel 4 API 34',
-        'appium:browserName': 'chrome'
-    }],
 
     //
     // ===================
