@@ -41,4 +41,5 @@ Test Cathay bank mobile website using Appium with WebdriverIO
     - iOS (Not yet implemented)
         - `npx wdio config/ios.conf.js`
 ### Demo
-https://github.com/Buzonxxxx/cathaybk-test/assets/12542424/55541e03-d010-43cf-890a-d5ec40e82329
+https://github.com/Buzonxxxx/cathaybk-test/assets/12542424/d595db42-209c-4be2-a408-50ccceebd974
+
